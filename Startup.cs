@@ -16,6 +16,7 @@ using TodoApi.Models;
 
 namespace TodoApi
 {
+#pragma warning disable CS1591
     public class Startup
     {
         public Startup(IConfiguration configuration)
@@ -65,4 +66,5 @@ namespace TodoApi
             app.UseMvc();
         }
     }
+#pragma warning restore CS1591
 }
